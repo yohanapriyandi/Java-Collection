@@ -25,7 +25,11 @@ public class CollectionApp {
         }
 
         System.out.println(
-                collection.contains(List.of("Yohan", "Apriyandi"))
+                collection.contains("Fathar")
+        );
+
+        System.out.println(
+                collection.containsAll(List.of("Yohan"))
         );
 
     }
